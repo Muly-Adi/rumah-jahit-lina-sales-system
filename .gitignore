@@ -1,0 +1,88 @@
+*.log
+.DS_Store
+.env
+.env.*
+.env.backup
+.env.production
+!.env.example
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Portfolio/public repository safety
+/public/uploads
+*.zip
+/db_rj_lina.sql
+/database/*.sql
+/.env.*.local
+
+# Composer temporary backups
+/composer.json.bak
+/composer.lock.bak
+
+# Laravel generated cache
+/bootstrap/cache/*.php
+
+# Laravel runtime files
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+
+# Keep required Laravel directory structure
+!/storage/logs/.gitignore
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/framework/testing/.gitignore
+
+# Local database files
+*.sqlite
+*.sqlite3
+/database/database.sqlite
+
+# Local temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# npm / yarn debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS metadata
+Desktop.ini
+
+# Coverage / test output
+/coverage
+/.coverage
+/.phpunit.cache
+
+# IDE local history
+.history/
+
+# Third-party template assets - excluded from public repository
+/public/admin/
+/public/dashboard/
+/public/home/
